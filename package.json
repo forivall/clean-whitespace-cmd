@@ -1,0 +1,30 @@
+{
+  "name": "clean-whitespace-cmd",
+  "version": "0.1.0",
+  "description": "Normalizes whitespace characters via the command line",
+  "main": "index.js",
+  "bin": {
+    "clean-whitespace": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forivall/clean-whitespace-cmd.git"
+  },
+  "keywords": [
+    "whitespace",
+    "unicode"
+  ],
+  "author": "Jordan Klassen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forivall/clean-whitespace-cmd/issues"
+  },
+  "homepage": "https://github.com/forivall/clean-whitespace-cmd",
+  "dependencies": {
+    "clean-whitespace": "~0.1.2",
+    "through": "~2.3.4"
+  }
+}
